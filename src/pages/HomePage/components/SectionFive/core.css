@@ -1,0 +1,39 @@
+.sectionFive-cont{
+    background-color: #fff;
+    padding: 4%;
+}
+
+.sectionFive-title{
+    font-family: Graphik;
+    font-size: 2.2vw;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.sectionFive-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.sectionFive-list-desc{
+    font-family: Graphik;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #b04995;
+}
+
+@media only screen and (max-width: 550px){
+    .sectionFive-title{
+        font-size: 5vw;
+    }
+}

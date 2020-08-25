@@ -1,0 +1,109 @@
+.sectionFour-cont {
+    /* height: 100vh; */
+    background-color: #fbfbfb;
+    padding: 6%;
+}
+
+.sectionFour-cont-title {
+    width: 50%;
+    margin: auto;
+    font-family: Graphik;
+    font-size: 4vw;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    margin-bottom: 6%;
+
+}
+
+.sectionFour-list-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sectionFour-list {
+    position: relative;
+    width: 300px;
+    /* height: 200px; */
+    border-radius: 10px;
+    box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.sectionFour-list-img {
+    width: 100px;
+    margin: 18px auto;
+}
+
+.sectionFour-list-img img {
+    width: 100%;
+}
+
+.sectionFour-list-title {
+    font-family: Graphik;
+    font-size: 1.3vw;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a494b;
+}
+
+
+.sectionFour-list-desc {
+    width: 90%;
+    margin: auto;
+    font-family: Graphik;
+    font-size: 1.2vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a494b;
+    margin-bottom: 31%;
+}
+
+.sectionFour-list-button{
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    margin: 25px 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 35%;
+    /* text-align: center; */
+    background-color: #b04995;
+    cursor: pointer;
+    outline: none;
+}
+
+.sectionFour-list-button:hover{
+    border: 1px solid #b04995;
+    background-color: #fff;
+    color: #b04995;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 550px){
+    .sectionFour-cont-title{
+        width: 90%;
+        font-size: 8vw;
+
+    }
+    .sectionFour-list-desc {
+        font-size: 5vw;
+    }
+    .sectionFour-list-title {
+        font-size: 5vw;
+    }
+}

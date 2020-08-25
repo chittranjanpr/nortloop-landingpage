@@ -1,0 +1,61 @@
+.sectionThree-cont {
+    background-color: #fff;
+    height: 20vh;
+}
+
+.sectionThree-cont {
+    font-family: Graphik;
+    font-size: 4vw;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 3%;
+    color: var(--black);
+    background-color: #fff;
+}
+
+.arrow {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position: relative;
+    top: -39px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+.sectionThree-cont-arrows{
+    position: absolute;
+    width: 94%;
+    margin: auto;
+    /* padding: 0% 7%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+
+.sectionThree-cont-arrows div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #b04995;
+}
+
+@media only screen and (min-widht: 550px) {
+    .sectionThree-cont {
+        font-size: 2vw;
+    }
+}

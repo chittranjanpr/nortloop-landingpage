@@ -1,0 +1,35 @@
+.header-cont{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid #CBCBCB;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.header-cont-img{
+    width: 9vw;
+    position: relative;
+    top: 30%;
+    margin-left: 8%;
+}
+
+@media only screen and (max-width: 650px) {
+    .header-cont-img{
+        width: 13vw;
+    }
+    .header-cont{
+        height: 8vh;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .header-cont-img{
+        width: 21vw;
+    }
+    .header-cont{
+        height: 8vh;
+    }
+}
+
